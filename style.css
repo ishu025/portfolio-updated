@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    background-color: #2b4057;
+    width: 100%;
+    color: #87909b;
+    overflow-x: hidden
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+    align-items: center;
+    border-bottom: 1px solid rgb(36, 112, 87);
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #87909b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+nav ul li a:hover{
+    color: aquamarine;
+    animation: ease-in-out;
+    transition: 0.5s;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+
+}
+
+.links p{
+    color: #87909b;
+    font-size: 20px;
+}
+
+.links p:hover{
+    color: aquamarine;
+}
+
+main{
+    /* background-color: red; */
+    width: 100%;
+    /* height: 80vh; */
+    padding: 0 20vw;
+}
+
+#home{
+    padding: 18vw 0;
+    
+}
+
+.decription {
+    max-width: 65ch; /* Responsive wrapper: mobile par auto 100% ho jayega */
+    width: 100%;
+}
+
+
+#about h1{
+    color: aquamarine;
+    margin: 2vw 0;
+}
+
+.about-me-content p{
+    margin: 1.6vw 0;
+    font-size: 20px;
+    font-weight: 400;
+    /* display: flex; */
+}
+
+.about-me-content{
+    display: flex;
+}
+
+.about-me-content .dec{
+    max-width: 75ch;
+    width: 100%;
+}
+
+.about-me-content .image img{
+    height: 30vh;
+    width: 18.5vw;
+    margin: 0 4vw;
+}
+
+.bold{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#expriences{
+    margin: 10vw 0;
+}
+
+#expriences p{
+    max-width: 65ch;
+    letter-spacing: 2px;
+}
+
+#software .templets{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10vw;
+
+}
+
+#software{
+    margin: 10vw 0;
+}
+
+.templet-1{
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+.drawings{
+    display: flex;
+    gap: 30px;
+}
+.art-box{
+    /* display: flex; */
+    height: 400px;
+    width: 300px;
+    background-color: #afafaf;
+}
+
+.a{
+    margin-top: 10vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
